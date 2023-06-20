@@ -1,0 +1,32 @@
+    .pb-4,
+    .py-4 {
+        padding-bottom: 0rem!important;
+    }
+    
+    .pt-4,
+    .py-4 {
+        padding-top: 0rem!important;
+    }
+    
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        padding: 0;
+    }
+    
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background: transparent;
+        border: 1px solid #1110;
+    }
+    
+    .main-sidebar {
+        left: 0;
+        right: auto;
+    }
+    
+    @media (min-width: 768px) {
+        .content-wrapper,
+        .main-footer,
+        .main-header {
+            margin-right: 0;
+            margin-left: 250px;
+        }
+    }
